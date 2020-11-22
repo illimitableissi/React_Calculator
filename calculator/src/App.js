@@ -18,27 +18,27 @@ class App extends Component {
       <Container>
       <input></input>
       <Row>
-      <Button>1</Button>
-      <Button>2</Button>
-      <Button>3</Button>
-      <Button>+</Button>
+      <Button value="1">1</Button>
+      <Button value ="2">2</Button>
+      <Button value ="3">3</Button>
+      <Button value= "plus">+</Button>
       </Row>
       <Row>
-      <Button>4</Button>
-      <Button>5</Button>
-      <Button>6</Button>
-      <Button>-</Button>
+      <Button value="4">4</Button>
+      <Button value="5">5</Button>
+      <Button value="6">6</Button>
+      <Button value="minus">-</Button>
       </Row>
       <Row>
-      <Button>7</Button>
-      <Button>8</Button>
-      <Button>9</Button>
-      <Button>*</Button>
+      <Button value="7">7</Button>
+      <Button value="8">8</Button>
+      <Button value="9">9</Button>
+      <Button value="multiply">X</Button>
       </Row>
       <Row>
-      <Button>/</Button>
-      <Button>CE</Button>
-      <Button>Enter</Button>
+      <Button value="divide">/</Button>
+      <Button value="clear">CE</Button>
+      <Button value="solve">Enter</Button>
       </Row>
       </Container>
     </div>
